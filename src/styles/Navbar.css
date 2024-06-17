@@ -12,7 +12,7 @@
   padding: 1%;
 }
 
-.navbar a {
+.navbar a { /*media query for phone size - font smaller and align text in center in the .navbar above*/
   color: var(--accent-color);
   font-size: 1.3rem;
   text-decoration: none;
