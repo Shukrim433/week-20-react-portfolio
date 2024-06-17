@@ -1,0 +1,21 @@
+:root{
+  --main-color: #2C363F;
+  --secondary-color:  #F2F5EA;
+  --accent-color:  #D6DBD2;
+}
+
+.navbar {
+  background:var(--main-color);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1%;
+}
+
+.navbar a {
+  color: var(--accent-color);
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}
