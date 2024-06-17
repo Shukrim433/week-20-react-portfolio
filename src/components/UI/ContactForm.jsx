@@ -25,19 +25,25 @@ export default function ContactForm () {
             // check to see if email is valid while user is typing
             if(!validateEmail(email)) {
                 setErrorMessage('Email is invalid')
+             } else {
+                setErrorMessage('')
              }
         } else if (inputType === 'name') {
             setName(inputValue)
             // if user removes text and leaves it blank, they get an error message
-            if (!name) {
+            if (inputValue.trim() === '') {
                 setErrorMessage('Field required');
-              }
+              } else {
+                setErrorMessage('')
+             }
         } else {
             setMessage(inputValue)
              // if user removes text and leaves it blank, they get an error message
-             if (!message) {
+             if (inputValue.trim() === '') {
                 setErrorMessage('Field required');
-              }
+              } else {
+                setErrorMessage('')
+             }
         }
     }
 
