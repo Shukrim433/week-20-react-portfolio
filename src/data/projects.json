@@ -1,0 +1,39 @@
+[
+    {
+        "project": "Foodie",
+        "src": "../assets/foodie.png",
+        "link": "https://shukrim433.github.io/Foodie/",
+        "repo": "https://github.com/Shukrim433/Foodie"
+    }, 
+    {
+        "project": "Tech Hive",
+        "src": "../assets/tech-hive.png",
+        "link": "https://tech-hive-6gct.onrender.com/",
+        "repo": "https://github.com/Shukrim433/Tech-Hive"
+    }, 
+    {
+        "project": "Text Editor",
+        "src": "../assets/text-editor.png",
+        "link": "https://week-19-pwa-text-editor.onrender.com/",
+        "repo": "https://github.com/Shukrim433/week-19-PWA-text-editor"
+    }, 
+    {
+        "project": "Tech Blog",
+        "src": "../assets/tech-blog.png",
+        "link": "https://week-14-tech-blog-challenge.onrender.com/",
+        "repo": "https://github.com/Shukrim433/Week-14-tech-blog-challenge"
+    }, 
+    {
+        "project": "Weather Dashboard",
+        "src": "../assets/weather-dashboard.png",
+        "link": "https://shukrim433.github.io/week-6-weather-dashboard-challenge/",
+        "repo": "https://github.com/Shukrim433/week-6-weather-dashboard-challenge"
+    }, 
+    {
+        "project": "Project 3 Coming soon",
+        "src": "../assets/place-holder.png",
+        "link": "",
+        "repo": ""
+    }
+
+]
