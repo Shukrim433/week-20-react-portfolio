@@ -1,0 +1,23 @@
+:root{
+    --main-color: #2C363F;
+    --secondary-color:  #F2F5EA;
+    --accent-color:  #D6DBD2;
+  }
+
+
+.contactMe-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.form-container{
+  margin: 5%;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+/*.single-project {
+
+}*/

@@ -1,6 +1,8 @@
 // helper function that will check if the email is valid
 import  ContactForm  from '../components/UI/ContactForm';
 
+import '../styles/Contact.css';
+
 export default function ContactMePage () {
     return(
         <div>
