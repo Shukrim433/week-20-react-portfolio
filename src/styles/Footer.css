@@ -1,0 +1,24 @@
+:root{
+    --main-color: #2C363F;
+    --secondary-color:  #F2F5EA;
+    --accent-color:  #D6DBD2;
+}
+
+.footer{
+    background:var(--main-color);
+    margin-top: 5%;
+    position: absolute;
+    width: 99%;
+    height: 70px;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer a {
+    color: var(--accent-color);
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px;
+    line-height: 3;
+}
