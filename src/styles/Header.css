@@ -1,0 +1,17 @@
+:root{
+  --main-color: #2C363F;
+  --secondary-color:  #F2F5EA;
+  --accent-color:  #D6DBD2;
+}
+.header {
+  background:var(--main-color);
+  height: 200px;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: 3rem;
+}
