@@ -1,0 +1,37 @@
+:root{
+    --main-color: #2C363F;
+    --secondary-color:  #F2F5EA;
+    --accent-color:  #D6DBD2;
+  }
+
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.project-card{ /*div that holds all the individual project divs*/
+  display: flex;
+  flex-wrap: wrap; /*wrap does what? */
+  justify-content: center;
+  align-items: center;
+}
+
+.single-project { /*put space between each project div*/
+  margin: 2%;
+  padding: 1%;
+  border: solid 1px var(--accent-color);
+  border-radius: 2%;
+}
+
+.single-project .github-link { /*centre github link text */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: var(--main-color);
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}

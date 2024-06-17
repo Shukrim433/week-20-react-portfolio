@@ -4,9 +4,14 @@
 // import project 'card' component that will be reused for all 6 projects
 import Project from '../components/UI/Project';
 //import ListItem from '../components/UI/ListItem';
+import '../styles/Portfolio.css';
 
 export default function PortfolioPage () {
     return(
-        <Project/>
+        <div className="portfolio">
+            <div className='project'>
+                <Project/>
+            </div>
+        </div>
     )
 }
