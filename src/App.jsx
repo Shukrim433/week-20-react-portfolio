@@ -7,7 +7,9 @@ function App() {
     <>
       <Header />
      {/* Outlet component will conditionally show the appropriate page component based on the URL */}
+      <div className='body'>
       <Outlet />
+      </div>
       <Footer />
     </>
   );

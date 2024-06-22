@@ -1,5 +1,5 @@
 :root{
-    --main-color: #2C363F;
+    --main-color: #13070C;
     --secondary-color:  #F2F5EA;
     --accent-color:  #D6DBD2;
   }
@@ -8,7 +8,7 @@
 .portfolio{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 80px; /*margin between projects and header*/
 }
 
 .project-card{ /*div that holds all the individual project divs*/
@@ -22,7 +22,8 @@
   margin: 2%;
   padding: 1%;
   border: solid 1px var(--accent-color);
-  border-radius: 2%;
+  border-radius: 1%;
+  
 }
 
 .single-project .github-link { /*centre github link text */
@@ -34,4 +35,6 @@
   text-decoration: none;
   margin: 5px;
   line-height: 3;
+  border: solid 1px var(--accent-color);
+  background-color: #D6CFCB
 }
